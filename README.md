@@ -12,13 +12,15 @@ Full-stack CRM application built with:
 ## Features
 
 - JWT Authentication
-- Admin & Sales Roles
-- Lead CRUD
-- Search & Filters
-- Pagination
+- Role-based Access
+- CRUD Leads
 - Charts & Analytics
+- Debounced Search
+- Filters
+- Pagination
+- CSV Export
 - Dark Mode
-- Protected Routes
+- Docker Support
 
 ## Run Client
 
