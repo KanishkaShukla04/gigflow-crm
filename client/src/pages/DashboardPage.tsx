@@ -4,6 +4,7 @@ import type { Lead } from "../types/lead";
 import { useNavigate } from "react-router-dom";
 import { useDebounce } from "use-debounce";
 import toast from "react-hot-toast";
+import { CSVLink } from "react-csv";
 
 import {
   PieChart,
@@ -535,6 +536,17 @@ const DashboardPage = () => {
 
       </div>
       {/* SEARCH + FILTERS */}
+      <div className="mb-6">
+
+  <CSVLink
+    data={leads}
+    filename="gigflow-leads.csv"
+    className="bg-green-500 text-white px-5 py-3 rounded-xl"
+  >
+    Export CSV
+  </CSVLink>
+
+</div>
 
 <div className="flex flex-wrap gap-4 mb-6">
 
