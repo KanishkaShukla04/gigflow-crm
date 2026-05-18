@@ -1,4 +1,6 @@
 # GigFlow CRM
+A mini CRM platform for managing sales leads.
+
 
 Full-stack CRM application built with:
 
@@ -33,3 +35,37 @@ npm run dev
 cd server
 npm install
 npm run dev
+
+## Tech Stack
+Frontend:
+- React
+- TypeScript
+- TailwindCSS
+- Vite
+
+Backend:
+- Node.js
+- Express
+- MongoDB
+- JWT
+
+
+## Live Demo
+Frontend:
+https://gigflow-crm.vercel.app
+
+Backend:
+https://gigflow-crm-backend.onrender.com
+## Screenshots
+
+### Login Page
+![Login](client/public/screenshots/screenshotslogin.png)
+
+### Dashboard
+![Dashboard](client/public/screenshots/screenshotdashboard.png)
+
+### Leads Management
+![Leads](client/public/screenshots/screenshotleads.png)
+
+### Charts & Analytics
+![Charts](client/public/screenshots/screenshotcharts.png)
