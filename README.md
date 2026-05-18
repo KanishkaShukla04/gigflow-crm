@@ -56,6 +56,9 @@ https://gigflow-crm.vercel.app
 
 Backend:
 https://gigflow-crm-backend.onrender.com
+
+Demo Video: 
+https://youtu.be/B2sAD8IRQdY
 ## Screenshots
 
 ### Login Page
